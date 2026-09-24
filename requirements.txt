@@ -1,0 +1,9 @@
+streamlit>=1.57.0
+pandas>=2.2.0
+requests>=2.31.0
+
+# Optional - install only the SDK for the LLM provider you use in LLM Enhanced Mode
+# anthropic
+# openai
+# groq
+# (Gemini and Ollama need no SDK - they are called over their REST APIs)
